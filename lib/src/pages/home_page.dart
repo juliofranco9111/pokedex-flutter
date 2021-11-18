@@ -8,9 +8,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          toolbarHeight: 70,
+          toolbarHeight: 170,
           elevation: 0.1,
-          title: const Text('Pocket Pokedex'),
+          title: const Text('What pokémon are you looking for?'),
           backgroundColor: Colors.white,
           centerTitle: false,
           titleTextStyle: TextStyle(
